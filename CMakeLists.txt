@@ -3,5 +3,5 @@ project(HMM)
 
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
 
-set(SOURCE_FILES main.cpp __config.h forward.h viterbi.h example.h)
+set(SOURCE_FILES main.cpp __config.h forward.h viterbi.h example.h forwardAndBackward.h)
 add_executable(HMM ${SOURCE_FILES})
